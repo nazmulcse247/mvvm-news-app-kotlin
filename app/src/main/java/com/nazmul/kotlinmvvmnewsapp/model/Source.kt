@@ -1,4 +1,4 @@
-package com.nazmul.kotlinmvvmnewsapp.response
+package com.nazmul.kotlinmvvmnewsapp.model
 
 data class Source(
     val id : String,
