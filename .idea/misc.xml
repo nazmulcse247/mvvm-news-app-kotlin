@@ -7,6 +7,7 @@
         <entry key="..\:/KotlinMVVMNewsApp/app/src/main/res/layout/fragment_article_news.xml" value="0.1" />
         <entry key="..\:/KotlinMVVMNewsApp/app/src/main/res/layout/fragment_breaking_news.xml" value="0.20416666666666666" />
         <entry key="..\:/KotlinMVVMNewsApp/app/src/main/res/menu/bottom_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/mvvm-news-app-kotlin/app/src/main/res/layout/item_article_preview.xml" value="0.25" />
       </map>
     </option>
   </component>
