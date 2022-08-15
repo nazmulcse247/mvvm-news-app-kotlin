@@ -1,4 +1,4 @@
-package com.nazmul.kotlinmvvmnewsapp.ui
+package com.nazmul.kotlinmvvmnewsapp.ui.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,8 +8,7 @@ import android.view.ViewGroup
 import com.nazmul.kotlinmvvmnewsapp.R
 
 
-class SearchNewsFragment : Fragment() {
-
+class ArticleNewsFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,7 +20,7 @@ class SearchNewsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_search_news, container, false)
+        return inflater.inflate(R.layout.fragment_article_news, container, false)
     }
 
 }

@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/breakingNewsFragment"
-        android:name="com.nazmul.kotlinmvvmnewsapp.ui.BreakingNewsFragment"
+        android:name="com.nazmul.kotlinmvvmnewsapp.ui.fragment.BreakingNewsFragment"
         android:label="fragment_breaking_news"
         tools:layout="@layout/fragment_breaking_news" >
         <action
@@ -22,7 +22,7 @@
     </fragment>
     <fragment
         android:id="@+id/savedNewskFragment"
-        android:name="com.nazmul.kotlinmvvmnewsapp.ui.SavedNewskFragment"
+        android:name="com.nazmul.kotlinmvvmnewsapp.ui.fragment.SavedNewskFragment"
         android:label="fragment_saved_newsk"
         tools:layout="@layout/fragment_saved_newsk" >
         <action
@@ -35,7 +35,7 @@
     </fragment>
     <fragment
         android:id="@+id/articleNewsFragment"
-        android:name="com.nazmul.kotlinmvvmnewsapp.ui.ArticleNewsFragment"
+        android:name="com.nazmul.kotlinmvvmnewsapp.ui.fragment.ArticleNewsFragment"
         android:label="fragment_article_news"
         tools:layout="@layout/fragment_article_news" >
 
@@ -44,7 +44,7 @@
     </fragment>
     <fragment
         android:id="@+id/searchNewsFragment"
-        android:name="com.nazmul.kotlinmvvmnewsapp.ui.SearchNewsFragment"
+        android:name="com.nazmul.kotlinmvvmnewsapp.ui.fragment.SearchNewsFragment"
         android:label="fragment_search_news"
         tools:layout="@layout/fragment_search_news" >
         <action
