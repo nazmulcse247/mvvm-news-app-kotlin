@@ -1,5 +1,6 @@
 package com.nazmul.kotlinmvvmnewsapp.ui.activity
 
+import NewsViewModelProvider
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
@@ -11,7 +12,6 @@ import com.nazmul.kotlinmvvmnewsapp.databinding.ActivityNewsBinding
 import com.nazmul.kotlinmvvmnewsapp.db.ArticleDatabase
 import com.nazmul.kotlinmvvmnewsapp.repository.NewsRepository
 import com.nazmul.kotlinmvvmnewsapp.viewmodel.NewsViewModel
-import com.nazmul.kotlinmvvmnewsapp.viewmodel.NewsViewModelProvider
 
 class NewsActivity : AppCompatActivity() {
     private lateinit var binding: ActivityNewsBinding
